@@ -45,7 +45,7 @@
 }
 
 .dark-background {
-  --background-color: #404040;
+    background-image: url('../img/fondo\ bakground.webp');
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #4668a2;
@@ -1281,13 +1281,13 @@ section,
 }
 
 .call-to-action h3 {
-  color: var(--default-color);
+  color: #444444;
   font-size: 28px;
   font-weight: 700;
 }
 
 .call-to-action p {
-  color: var(--default-color);
+  color: #444444;
 }
 
 .call-to-action .cta-btn {
@@ -1300,13 +1300,13 @@ section,
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid var(--contrast-color);
-  color: var(--contrast-color);
+  border: 2px solid #ffc000;
+  color: #444444;
 }
 
 .call-to-action .cta-btn:hover {
   background: var(--accent-color);
-  border: 2px solid var(--accent-color);
+  border: 2px solid #ffc000;
 }
 
 /*--------------------------------------------------------------
