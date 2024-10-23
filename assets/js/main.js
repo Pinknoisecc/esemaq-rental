@@ -229,4 +229,22 @@
 
 })();
 
+/* AVALIABILITY BUTTON WHATSAPP */
+
+
+    document.addEventListener("DOMContentLoaded", function() {
+        const whatsappButton = document.getElementById('whatsapp-button');
+        
+        // Captura la URL del producto actual
+        const productUrl = window.location.href; // o usa un selector específico si es necesario
+
+        // Número de WhatsApp
+        const whatsappNumber = '+56936918954';
+        
+        // Mensaje predefinido
+        const message = `Hola, quisiera saber si este equipo está disponible para arriendo. Aquí está el enlace del producto: ${productUrl}`;
+
+        // Cambia el href del botón al enlace de WhatsApp con el mensaje
+        whatsappButton.href = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+    });
 

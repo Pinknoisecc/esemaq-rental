@@ -753,6 +753,7 @@ h6 {
   font-size: 28px;
   font-weight: 700;
   margin: 0;
+  margin-top: 90px;
 }
 
 .page-title .breadcrumbs ol {
@@ -774,6 +775,30 @@ h6 {
   padding-right: 10px;
   color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
+
+/*--------------------------------------------------------------
+# Availability button
+----------------------------------------------------------------*/
+.btn-get-started.whatsapp-button {
+  color: var(--contrast-color); /* Color del texto */
+  background: color-mix(in srgb, #FFC000, transparent 15%); /* Fondo con mezcla */
+  font-family: var(--heading-font); /* Fuente del botón */
+  font-weight: 500; /* Peso de la fuente */
+  font-size: 15px; /* Tamaño de la fuente */
+  letter-spacing: 1px; /* Espaciado de letras */
+  display: inline-block; /* Mostrar como bloque en línea */
+  padding: 10px 28px; /* Espaciado interno */
+  border-radius: 50px; /* Bordes redondeados */
+  text-shadow: 0 0 5px yellow; /* Contorno amarillo */
+  transition: background-color 0.5s, color 0.5s; /* Transición suave */
+}
+
+.btn-get-started.whatsapp-button:hover {
+  background: #FFC000; /* Color de fondo al pasar el mouse */
+  color: black; /* Color de texto al pasar el mouse */
+}
+
+
 
 /*--------------------------------------------------------------
 # Global Sections
